@@ -4,6 +4,7 @@
 # Purpose: Generic script to excute >= sql select statements from user-provided file and print comma-delimited results to STDOUT
 # Params: 1. Connection reference
 #         2. File containing SQL SELECT statements
+# Note: Expects to be run on Unix-type system
 # Note: Database type could be abstracted
 # Note: I've used this for an Oracle-to-Vertica ETL so it contains a couple of character replace lines specific to that use-case
 # Note: User must have params.py in home directory with db user / pass in the format:
